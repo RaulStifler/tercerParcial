@@ -1,0 +1,130 @@
+a
+{
+	color: #dd4f24;
+	
+}
+#label-registrar
+{
+	color: #000000;
+}
+body
+{
+	background: #dddd99;
+	color: #353498;
+	font-family: Arial;
+	font-size: 16px;
+	margin: 0;
+}
+header
+{	
+	background: #00ef55;
+	color: white;
+	margin: 0;
+	padding: 0.5em;
+}
+header figure, header h
+{
+	display: center;
+	text-align: center;
+}
+header h1
+{
+	font-size: 20px;
+	font-weight: normal;
+	margin: 1em 0 0 1em;
+	width: 40%;
+}
+header #logo img
+{
+	height: 100px;
+	width: 500px;
+}
+nav
+{
+	text-align: center;
+	background: #005522;
+	font-size: 0.9em;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li
+{
+	background: #004511;
+	display: inline-block;
+	margin: 0 1.2em 0 0;
+	vertical-align: top;
+	width: 120px;
+}
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 0.5em 0;
+}
+
+#login
+{
+    box-shadow:
+          0 0 2px rgba(0, 0, 0, 0.2),  
+          0 1px 1px rgba(0, 0, 0, .2),
+          0 3px 0 #fff,
+          0 4px 0 rgba(0, 0, 0, .2),
+          0 6px 0 #fff,  
+          0 7px 0 rgba(0, 0, 0, .2);
+    display: block;
+    margin: auto;
+    padding: 2px;
+    text-align: left;
+    width: 200px;
+}
+footer
+{
+	color: #4c4c4c;
+	display: block;
+	margin: 0;
+	padding: 0.5em;
+	text-align: center;
+}
+
+section
+{
+
+
+}
+
+table
+{
+	display: block;
+    margin: auto;
+    padding: 10px;
+	border-collapse: separate;
+	background: white;
+	width: 500px;
+	height: auto;
+}
+
+table th{
+	color: yellow;
+	background: #2343bb;
+}
+table td
+{
+	color: black;
+	background: #dfffaa;
+	margin: auto;
+	padding: 5px;
+	width: 300px;
+}
+#label
+{
+	color: white;
+	background: #453495;
+	margin-right: auto;
+	padding: 10px;
+	text-align: right;
+	width: 200px;
+}

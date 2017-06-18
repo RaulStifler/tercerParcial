@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Mi primera web</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="estilos1.css">
+</head>
+<body>
+	<header>
+		<figure id="logo">
+			<img src="clarion.jpg" />
+		</figure>
+		<h1 id="titulo_header">Almacen: registro de entradas y salidas</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="salidas.html">Salidas</a></li>
+			<li><a href="entradas.html">Entradas</a></li>
+			<li><a href="nuevo.html">Nuevo producto</a></li>
+			<li><a href="consulta.html">Consultas</a></li>
+			<li><a href="index.html">Salir</a></li>
+		</ul>
+	</nav>		 
+	<section>
+		 <form method="post" action="entradas.php" id="login">
+    		<h1>Registra Entradas</h1>
+    		<fieldset id="inputs">
+        	<input id="clave_prod" name="clave_prod" type="text" placeholder="clave producto" autofocus required>
+        	<input id="cantidad" name="cantidad" type="text" placeholder="cantidad" required>
+    		</fieldset>
+    		<fieldset id="actions">
+        	<input type="submit" id="submit" value="Registrar entrada">
+    		</fieldset>
+		</form>
+	</section>	
+	
+	<footer>
+		<p><strong>Powered by Uriell</strong></p>
+		<p>UMB Acambay</p>
+	</footer>
+</body>
+</html>
