@@ -8,7 +8,7 @@
 		<ul>
 			<li><a href="nuevo.php">Registrar Alumno</a></li>
 			<li><a href="consulta.php">Buscar Alumno</a></li>
-			<li><a href="index.html">Salir</a></li>
+			<li><a href="logout.php">Salir</a></li>
 		</ul>
 	</nav>		 
 </header>

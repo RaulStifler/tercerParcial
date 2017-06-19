@@ -3,7 +3,7 @@ session_start();
 $cantidad=$_POST["cantidad"];
 $clave=$_POST["clave_prod"];
 
-$conexion=mysql_connect("127.0.0.1","root","");
+$conexion=mysql_connect("localhost","root","");
  
 	if($conexion){
 	    mysql_select_db("almacen",$conexion);

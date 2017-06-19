@@ -9,7 +9,7 @@
 			<li><a href="buscarPorAlumno_form.php">Ver por alumno</a></li>
 			<li><a href="buscarPorSemestre_form.php">Ver por semestre</a></li>
 			<li><a href="menu.php">Menu</a></li>
-			<li><a href="index.html">Salir</a></li>
+			<li><a href="logout.php">Salir</a></li>
 		</ul>
 	</nav>		 
 </header>

@@ -2,7 +2,7 @@
 session_start();
 $clave=$_POST['clave'];
 
-$conexion=mysql_connect("127.0.0.1","root","");
+$conexion=mysql_connect("localhost","root","");
  
 	if($conexion){
 	    mysql_select_db("cecytemsfp",$conexion);

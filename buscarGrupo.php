@@ -15,7 +15,7 @@ session_start();
 	<?php
 	$usuario=$_SESSION['usuario'];
 	$grupo = $_POST['grupo'];
-	$conexion=mysql_connect("127.0.0.1","root","");
+	$conexion=mysql_connect("localhost","root","");
 	 
 		if($conexion){
 		    mysql_select_db("cecytemsfp",$conexion);

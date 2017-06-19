@@ -7,7 +7,16 @@
 	<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-<?php require('menubar.php'); ?>
+<?php 
+	session_start();
+	if (!$_SESSION["usuario_logeado"]) {
+		//Codigo que se ejecutara cuando el usuario no esta logeado
+		header('Location: index.html'); //Sentencia que nos redirecciona al index para que el usuario se logee
+	}else{
+		//Codigo que se ejecutara cuando el usuario si esta logeado
+		require('menubar.php'); 
+	}
+?>
 </body>
 </html>
 	

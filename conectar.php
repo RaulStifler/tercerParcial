@@ -3,7 +3,7 @@ session_start();
 $_SESSION['usuario']=$_POST["username"];
 $_SESSION['clave']=$_POST["password"];
 
-$conexion=mysql_connect("127.0.0.1","root","");
+$conexion=mysql_connect("localhost","root","");
  
 	if($conexion){
 	    mysql_select_db("cecytemsfp",$conexion);
@@ -12,8 +12,9 @@ $conexion=mysql_connect("127.0.0.1","root","");
 		$ejecuta_consulta=mysql_query($consulta,$conexion);
  		$rows_numero=mysql_num_rows($ejecuta_consulta);
  		
- 		if($rows_numero != 0)
- 		{
+ 		if($rows_numero != 0){
+ 			session_start();
+ 			$_SESSION['usuario_logeado']=$_SESSION['usuario'];
  			echo"<script type='text/javascript'>window.location='menu.php';</script>";
  		}
  		else
